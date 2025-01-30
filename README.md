@@ -19,7 +19,7 @@ Function Intersection Finder is a PySide2-based GUI application that allows user
 Ensure you have Python installed (Python 3.7+ recommended). Install the required dependencies using:
 
 ```sh
-pip install numpy scipy matplotlib PySide2
+pip install numpy scipy matplotlib PySide2 pytest pytest-qt
 ```
 
 ## Usage
