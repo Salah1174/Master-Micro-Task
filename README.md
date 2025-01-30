@@ -1,16 +1,68 @@
-# Master-Micro-Task
-# Requirements
+# Function Intersection Finder
 
-# 1. Write a Python GUI program that performs the following:
-a. Take TWO functions of x from the user, e.g., 5*x^3 + 2*x
-b. Solve the two functions
-c. Plot the functions
-d. Center and annotate the solution point in the plot
-# 2. The following operators must be supported: + - / * ^ log10() sqrt().
-# 3. The GUI should be simple and beautiful (well organized).
-# 4. Apply appropriate input validation to the user input.
-# 5. Display messages to the user to explain any wrong input.
-# 6. You must use Pyside2 (not Pyside6) and Matplotlib.
-# 7. The Matplotlib figure must be embedded in the Pyside2 application.
-# 8. Create automated tests for your program using pytest and pytest-qt. Perform end-to-end testing for some of the program main features. Include the testing codes in your repository.
-# 9. Your code should be well organized and well documented.
+## Project Overview
+
+Function Intersection Finder is a PySide2-based GUI application that allows users to input two mathematical functions, plot them, and find their intersection points. The application utilizes `matplotlib` for graph plotting and `scipy.optimize.fsolve` for finding intersection points.
+
+## Features
+
+- User-friendly GUI built with PySide2 (Qt for Python)
+- Allows users to input two mathematical functions
+- Parses functions and evaluates them using `numpy`
+- Finds intersection points using `fsolve`
+- Plots functions and marks intersection points
+
+## Installation
+
+### Prerequisites
+
+Ensure you have Python installed (Python 3.7+ recommended). Install the required dependencies using:
+
+```sh
+pip install numpy scipy matplotlib PySide2
+```
+
+## Usage
+
+Run the application using:
+
+```sh
+python main.py
+```
+
+### Steps to Use:
+
+1. Enter two mathematical functions in the provided text fields (e.g., `x**2`, `sin(x)`).
+2. Click the "Find Intersections" button.
+3. The functions will be plotted, and their intersection points will be displayed.
+
+## Function Parsing Rules
+
+- Use `x` as the variable.
+- Supported operations: `+, -, *, /, ^`.
+- Supported functions: `sin`, `cos`, `tan`, `log10`, `sqrt`
+- Use standard Python syntax for mathematical expressions.
+
+## Testing
+
+The project includes tests using `pytest`. To run tests:
+
+```sh
+pytest
+```
+
+## Author
+
+**Mohamed Salah Fathy**
+
+## License
+
+This project is open-source and licensed under the MIT License.
+
+![Description](images/Screenshot%202025-01-29%20155309.png)
+![Description](images/Screenshot%202025-01-30%20140826.png)
+![Description](images/Screenshot%202025-01-30%20140830.png)
+![Description](images/Screenshot%202025-01-30%20140851.png)
+![Description](images/Screenshot%202025-01-30%20140903.png)
+![Description](images/Screenshot%202025-01-30%20141105.png)
+![Description](images/Screenshot%202025-01-30%20141133.png)
