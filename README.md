@@ -27,7 +27,7 @@ pip install numpy scipy matplotlib PySide2 pytest pytest-qt
 Run the application using:
 
 ```sh
-python main.py
+python GUI.py
 ```
 
 ### Steps to Use:
@@ -48,7 +48,7 @@ python main.py
 The project includes tests using `pytest`. To run tests:
 
 ```sh
-pytest
+pytest testing.py
 ```
 
 ## Author
