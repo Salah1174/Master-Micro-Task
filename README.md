@@ -64,5 +64,4 @@ This project is open-source and licensed under the MIT License.
 ![Description](images/Screenshot%202025-01-30%20140830.png)
 ![Description](images/Screenshot%202025-01-30%20140851.png)
 ![Description](images/Screenshot%202025-01-30%20140903.png)
-![Description](images/Screenshot%202025-01-30%20141105.png)
-![Description](images/Screenshot%202025-01-30%20141133.png)
+![Description](images/Screenshot%202025-01-30%20143155.png)
